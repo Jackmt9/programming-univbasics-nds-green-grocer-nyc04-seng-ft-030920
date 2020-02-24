@@ -1,5 +1,7 @@
 def find_item_by_name_in_collection(name, collection)
-  return collection
+  collection.each do |hash|
+    hash[:item] == name? hash : NIL
+  end
 end
 
 def consolidate_cart(cart)
