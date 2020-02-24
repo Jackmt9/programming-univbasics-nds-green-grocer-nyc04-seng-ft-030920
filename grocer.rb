@@ -1,5 +1,5 @@
 def find_item_by_name_in_collection(name, collection)
-  collection[:item] == name ? collection[:item] : NIL
+  collection[0] == name ? collection[:item] : NIL
 end
 
 def consolidate_cart(cart)
