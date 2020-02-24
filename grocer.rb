@@ -1,6 +1,6 @@
 def find_item_by_name_in_collection(name, collection)
-  collection.each do | hash |
-    hash[:item] == name? hash : NIL
+  collection.each do |hash|
+    hash[:item] == name? return hash : NIL
   end
 end
 
